@@ -1,0 +1,16 @@
+NanoMax Pep-AuNC Studio v0.1
+PepAuDB v0.6
+Real-Data Benchmark v0.4
+
+QA:
+app.py syntax: PASS
+data/training_view.csv: 23 rows (expected 23) — PASS
+data/atomic_nuclearity.csv: 10 rows (expected 10) — PASS
+data/formation_controls.csv: 6 rows (expected 6) — PASS
+data/relative_pl.csv: 8 rows (expected 8) — PASS
+data/literature_additions.csv: 5 rows (expected 5) — PASS
+data/benchmark.csv: 40 rows (expected 40) — PASS
+
+Deployment note:
+The package includes requirements.txt for Streamlit deployment.
+Python syntax and packaged data were validated during packaging.

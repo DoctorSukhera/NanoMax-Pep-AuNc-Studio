@@ -1,0 +1,87 @@
+{
+  "project_name": "NanoMax Pep-AuNC Studio",
+  "project_version": "v0.2 Target-First Research Prototype",
+  "scientific_question": "Which peptide sequence, under which synthesis conditions, is most likely to produce a specific gold nanocluster architecture with the optical, photothermal, stability, targeting, and safety properties required for cancer PTT?",
+  "data_version": "PepAuDB v0.6",
+  "benchmark_version": "Real-Data Benchmark v0.4",
+  "production_ready": false,
+  "prospective_validation_completed": false,
+  "synthetic_labels_used_for_current_benchmark": false,
+  "workflow": [
+    "Define Target",
+    "Design Space",
+    "Evidence-Constrained Inverse Design",
+    "Candidate Portfolio",
+    "Design Explainer",
+    "Synthesis Planner",
+    "Validation & Model",
+    "Experiment Feedback"
+  ],
+  "evidence_states": {
+    "OBSERVED": "Directly reported or source-supported literature evidence.",
+    "ESTIMATED": "Model-derived value; only permitted for targets that pass the current model gate.",
+    "GATED": "The current dataset/validation does not justify a predictive value."
+  },
+  "current_target_status": {
+    "core_size": {
+      "status": "exploratory",
+      "paper_grouped_mae_nm": 0.2981,
+      "dummy_mae_nm": 0.3508,
+      "oof_r2": 0.231,
+      "production_use": false
+    },
+    "emission": {
+      "status": "gated",
+      "learned_mae_nm": 116.28,
+      "dummy_mae_nm": 109.75,
+      "production_use": false
+    },
+    "plqy": {
+      "status": "gated",
+      "learned_mae_percentage_points": 7.152,
+      "dummy_mae_percentage_points": 7.849,
+      "oof_r2": -0.333,
+      "production_use": false
+    },
+    "nuclearity": {
+      "status": "gated",
+      "n_labeled": 10,
+      "paper_grouped_best_mae_atoms": 4.624,
+      "paper_grouped_dummy_mae_atoms": 3.7,
+      "lab_grouped_best_mae_atoms": 3.745,
+      "lab_grouped_dummy_mae_atoms": 3.7,
+      "lab_grouped_oof_r2": -0.034,
+      "production_use": false
+    },
+    "formation": {
+      "status": "gated",
+      "verified_negative_controls": 3,
+      "production_use": false
+    },
+    "ptt": {
+      "status": "gated",
+      "reason": "Insufficient direct peptide-templated AuNC sequence+synthesis\u2192PTT labels.",
+      "production_use": false
+    },
+    "stability": {
+      "status": "gated",
+      "reason": "Not yet systematically labeled across enough direct peptide-AuNC studies."
+    },
+    "targeting": {
+      "status": "motif/evidence layer only",
+      "reason": "No validated general sequence\u2192targeting model."
+    },
+    "safety": {
+      "status": "gated",
+      "reason": "No validated general sequence/synthesis\u2192safety model."
+    }
+  },
+  "validation_policy": [
+    "Paper-grouped out-of-fold validation",
+    "Lab-aware grouped stress testing",
+    "Sequence-cluster leakage control",
+    "Mandatory dummy baseline",
+    "No accuracy/confidence badge for a target that fails its gate",
+    "Independent prospective validation required for production claims"
+  ]
+}

@@ -1,0 +1,11 @@
+﻿Record_ID,Source_ID,Sequence,Modification,Metal,Au_Nuclearity,Peptide_Ligand_Count,Core_Size_nm,Paper_Group,Lab_Group,Training_Use,Primary_Strength,Critical_Caveat,DOI_URL
+R015,S10,ECG,GSH ligand,pure_Au,22,18,1.5,S10,LAB_S10,TRAIN_CORE,Direct atomic Au22 peptide-ligand record,Same source family as R016.,https://doi.org/10.1126/sciadv.adh7828
+R016,S10,ECG,GSH ligand,AuCu,21,18,1.5,S10,LAB_S10,TRAIN_CORE,Direct Au21Cu1 atomic record,Alloy composition must remain explicit.,https://doi.org/10.1126/sciadv.adh7828
+R026,W03,CCYLQLQAEER,C-terminal amide,pure_Au,21,,2,W03,LAB_W03,TRAIN_CORE,MALDI-supported Au21 peptide cluster,Entire study held as one group.,https://doi.org/10.1039/C5RA20113F
+R028,W05,CCYGGPKKKRKPG,NH2-/COOH termini,pure_Au,25,9,,W05,LAB_W05,TRAIN_STRUCTURE_ONLY,Au25Sv9 atomic peptide cluster,Synthesis quantities incomplete.,https://doi.org/10.1016/j.scib.2017.03.024
+R055,W18,CCIHK,Lys acetylated,pure_Au,8,2,1.1,W18,LAB_W18,TRAIN_CORE,Au8(peptide)2(MPA)2 + primary SI protocol,Co-ligand MPA means peptide ligand count is not total ligand-shell count.,https://doi.org/10.1021/ac403308b
+R058,W24,CGRPGRPGRP,None,pure_Au,16,1,0.74,W24,LAB_W24,TRAIN_CORE_STRUCTURE_OPTICAL,MALDI Au16 + one peptide; SAXS evidence,0.74 nm is derived diameter from reported 3.7 Å radius.,https://doi.org/10.1039/C4CC03240C
+R062,W26,CCYRGRKKRRQRRR,CCYTAT/TAT domain,pure_Au,25,,1.5,W26,LAB_W26,TRAIN_CORE,Au25 core by MALDI; HRTEM + QY + full SI synthesis,Mixed CCYTAT/S shell; no simple peptide ligand count.,https://doi.org/10.1039/C1CC15926G
+R064,W28,CR,None,pure_Au,23,14,,W28,LAB_W28,TRAIN_CORE_NUCLEARITY,Single ESI-MS peak + TGA confirmation,Multi-stage synthesis not reducible to one simple scalar context.,https://doi.org/10.1093/nsr/nwz215
+R065,W29,RGDC,None,pure_Au,16,14,,W29,STAMPLECOSKIE_PHOTOCHEM,TRAIN_CORE_NUCLEARITY_OPTICAL,High-resolution ESI-MS + optical-purity analysis,Same lab/platform family as W30.,https://doi.org/10.1039/D3NR02258G
+R066,W30,KCK,None,pure_Au,22,16,,W30,STAMPLECOSKIE_PHOTOCHEM,TRAIN_CORE_NUCLEARITY_OPTICAL,ESI-MS + size-focused optically precise product,Same lab/platform family as W29.,https://doi.org/10.1039/D3NR04793H

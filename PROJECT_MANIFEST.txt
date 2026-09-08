@@ -1,0 +1,14 @@
+NanoMax Pep-AuNC Studio v0.2 QA
+app.py AST syntax: PASS
+model_card.json: PASS
+training_view.csv: 23 rows — PASS
+atomic_nuclearity.csv: 10 rows — PASS
+formation_controls.csv: 6 rows — PASS
+relative_pl.csv: 8 rows — PASS
+benchmark.csv: 40 rows — PASS
+synthesis_records.csv: 66 rows — PASS
+ptt_benchmarks.csv: 5 rows — PASS
+README.md: PASS
+docs/SCIENTIFIC_WORKFLOW.md: PASS
+docs/CHANGELOG_v0.2.md: PASS
+notebooks/NanoMax_PepAu_RealData_Benchmark_v0.4.ipynb: PASS

@@ -1,0 +1,6 @@
+﻿Benchmark_ID,Source_ID,Material,Ligand / peptide,Regime,Laser_nm,Power_W_cm2,Concentration,Exposure_min,Temperature_result,Biological_context,Outcome,Use_in_model,DOI_URL
+P01,S11,Au25/AuPC,Phosphorylcholine,atomically_precise_AuNC,808,0.3,25 mg/mL,10,~70°C from room temperature,In vitro aqueous solution,Strong AuNC photothermal heating,Target/reference only,https://doi.org/10.1073/pnas.2318265121
+P02,S11,Au25/AuPC,Phosphorylcholine,atomically_precise_AuNC,808,0.3,20–40 µL of 25 mg/mL i.t.,30,~53°C at 3 min; up to ~60°C,"4T1 breast tumor, mouse",Tumor ablation; 94.4% 60-day relative survival,Target/reference only,https://doi.org/10.1073/pnas.2318265121
+P03,S02,D-/L-GBPs,D-/L-Cys-Phe,gold_bipyramid,808,0.8,55 mg/mL,5,>45°C,In vitro solution,"Useful PTT but material is ~200×50 nm, not AuNC",Mechanistic benchmark only,https://doi.org/10.1039/d2sc03443c
+P04,S02,D-GBP,D-Cys-Phe,gold_bipyramid,808,0.8,55 mg/mL,10,~60±4.5°C at infected site,Mouse skin infection,D-form highest local temperature,Mechanistic benchmark only,https://doi.org/10.1039/d2sc03443c
+P05,S12,Au44(MBA)26,MBA,atomically_precise_AuNC,808,,Primary paper required,,High PCE stated in review,4T1 cancer models,PTT / PDT / immunotherapy literature lead,Acquire primary paper,https://doi.org/10.1021/acs.chemrev.4c00835

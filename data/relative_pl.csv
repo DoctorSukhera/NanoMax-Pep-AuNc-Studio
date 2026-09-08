@@ -1,9 +1,0 @@
-﻿Panel_ID,Source_ID,Sequence_A,Sequence_B,Comparison_Type,Observed_Relationship,Fold_Change,Condition,Training_Use,DOI_URL,Scientific_Note
-PL001,W23,Ac-CGGGDD,CGGGDD,N-terminal acetylation,Ac-CGGGDD brighter than CGGGDD,1.38,Same synthesis; λex 400 nm,PAIRWISE_RANKING,https://doi.org/10.1021/jacs.8b04436,Relative intensity only; do not convert to absolute QY.
-PL002,W23,Ac-CHGGDD,CHGGDD,N-terminal acetylation,Ac-CHGGDD brighter than CHGGDD,3.95,Same synthesis; λex 400 nm,PAIRWISE_RANKING,https://doi.org/10.1021/jacs.8b04436,Strong acetylation effect.
-PL003,W23,Ac-CHYGDD,CHYGDD,N-terminal acetylation,Ac-CHYGDD brighter than CHYGDD,3.43,Same synthesis; λex 400 nm,PAIRWISE_RANKING,https://doi.org/10.1021/jacs.8b04436,CHYGDD representative emits near 700 nm.
-PL004,W23,Ac-CYHGDD,CYHGDD,N-terminal acetylation,Ac-CYHGDD brighter than CYHGDD,2.57,Same synthesis; λex 400 nm,PAIRWISE_RANKING,https://doi.org/10.1021/jacs.8b04436,Acetylation changes ligand-core/water interactions.
-PL005,W23,CYGGDD,CGYGDD,Tyrosine position,CYGGDD brighter than CGYGDD,,Same synthesis,PAIRWISE_RANKING,https://doi.org/10.1021/jacs.8b04436,Closer Tyr to Cys/Au surface increases emission.
-PL006,W23,CYYGDD,CYGGDD,Aromatic residue count,CYYGDD brighter than CYGGDD,,Same synthesis,PAIRWISE_RANKING,https://doi.org/10.1021/jacs.8b04436,More aromatic electron-donating groups increased PL.
-PL007,W23,CGGGDD@pH5.5,CGGGDD@pH7.5,pH,Lower-pH sample brighter,,Same peptide; pH 5.5 vs 7.5,CONDITION_RANKING,https://doi.org/10.1021/jacs.8b04436,pH effect linked to N-terminal protonation.
-PL008,W23,CHYGDD@pH5.5,CHYGDD@pH7.5,pH,Lower-pH sample brighter,,Same peptide; pH 5.5 vs 7.5,CONDITION_RANKING,https://doi.org/10.1021/jacs.8b04436,Useful condition-aware ranking evidence.
